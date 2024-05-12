@@ -1,4 +1,4 @@
-# Iniciando o loop do menu com opções para o usuario.
+# Iniciando o loop e imprimindo opções disponíveis do menu para o usuario.
 while True:
     print("+ - Adição")
     print("- - Subtração")
