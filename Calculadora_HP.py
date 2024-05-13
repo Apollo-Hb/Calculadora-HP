@@ -1,3 +1,9 @@
+##
+# atividade: Calculadora-Hp
+# aluno: Apollo
+# Data: 24/03/2024
+##
+
 # Iniciando um loop infinito e imprimindo opções disponíveis do menu para o usuario.
 while True:
     print("+ - Adição")
