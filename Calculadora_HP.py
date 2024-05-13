@@ -21,7 +21,7 @@ while True:
     while True:
         numero = input("Digite 'P' para parar: ")
         if numero == 'P':
-            break                                           #Iniciando outro loop infinito e esperando o usuario escolher uma opção e lendo os numeros e até o usuario digitar P ou continuar a operação digitando mais um número.
+            break                                           #Iniciando outro loop infinito e esperando o usuario escolher uma opção e também lendo os numeros, até o usuario digitar P ou continuar a operação digitando mais um número.
         else:
             
             numero = float(numero)
