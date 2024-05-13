@@ -1,4 +1,4 @@
-# Iniciando o loop e imprimindo opções disponíveis do menu para o usuario.
+# Iniciando o loop infinito e imprimindo opções disponíveis do menu para o usuario.
 while True:
     print("+ - Adição")
     print("- - Subtração")
@@ -8,7 +8,7 @@ while True:
     opcao = input("Escolha uma opção: ")
 
     if opcao == 'X':
-        break                               # Vendo se o usuario parou o programa ou escolheu uma das opções.
+        break                               # Vendo se o usuario parou o loop(programa) ou escolheu uma das opções.
     for opcao in ['+', '-', '*', '/']:
         
         resultado = float(input("Digite qualquer número ou 'P' para encerrar o calculo: "))
@@ -24,7 +24,7 @@ while True:
                     resultado += numero
                 if opcao == '-':  # Subtração
                     resultado -= numero
-                if opcao == '*':  # Multiplicação                            # Realizando a operação que o usuario escolher.
+                if opcao == '*':  # Multiplicação                            # Realizando a operação matémica que o usuario escolheu: '+', '-', '*', '/'.
                     resultado *= numero
                 if opcao == '/':  # Divisão
                     resultado /= numero
