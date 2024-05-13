@@ -10,9 +10,9 @@ while True:
 
     while True:
         numero = input("Digite 'P' para parar: ")
-        if numero == 'P':                                   # Vendo se o usuario parou o loop(programa) ou escolheu uma das opções.
-            break                                           #Iniciando um outro loop infinito e esperando o usuario escolher uma opção e lendo os numeros e até o usuario digitar P para parar a programação ou continuar a operação digitando mais um numero.
-        else:
+        if numero == 'P':                                   #Vendo se o usuario parou o loop(programa) ou escolheu uma das opções.
+            break
+        else:                                               #Iniciando um outro loop infinito e esperando o usuario escolher uma opção e lendo os numeros e até o usuario digitar P para parar a programação ou continuar a operação digitando mais um numero.
             
             numero = float(numero)
 
