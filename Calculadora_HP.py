@@ -1,4 +1,4 @@
-# Iniciando o loop infinito e imprimindo opções disponíveis do menu para o usuario.
+# Iniciando um loop infinito e imprimindo opções disponíveis do menu para o usuario.
 while True:
     print("+ - Adição")
     print("- - Subtração")
@@ -9,25 +9,25 @@ while True:
 
     if opcao == 'X':
         break                               # Vendo se o usuario parou o loop(programa) ou escolheu uma das opções.
-    for opcao in ['+', '-', '*', '/']:
-        
-        resultado = float(input("Digite qualquer número ou 'P' para encerrar o calculo: "))
 
-        while True:
-            numero = input("Digite 'P' para parar: ")
-            if numero == 'P':
-                break                       #Iniciando outro loop e esperando o usuario escolher uma opção e lendo os numeros e até o usuario digitar P ou continuar a operação.
-            else:
-                numero = float(numero)
+    resultado = float(input("Digite qualquer número ou 'P' para encerrar o calculo: "))
 
-                if opcao == '+':  # Adição
-                    resultado += numero
-                if opcao == '-':  # Subtração
-                    resultado -= numero
-                if opcao == '*':  # Multiplicação                            # Realizando a operação matémica que o usuario escolheu: '+', '-', '*', '/'.
-                    resultado *= numero
-                if opcao == '/':  # Divisão
-                    resultado /= numero
+    while True:
+        numero = input("Digite 'P' para parar: ")
+        if numero == 'P':
+            break                                           #Iniciando outro loop e esperando o usuario escolher uma opção e lendo os numeros e até o usuario digitar P ou continuar a operação.
+        else:
+            
+            numero = float(numero)
 
-        # Imprimindo o resultado para o usuario.
-        print(f"Resultado: {resultado}")
+            if opcao == '+':  # Adição
+                resultado += numero
+            elif opcao == '-':  # Subtração
+                resultado -= numero
+            elif opcao == '*':  # Multiplicação                                             # Realizando a operação matémica que o usuario escolheu: '+', '-', '*', '/'.
+                resultado *= numero
+            elif opcao == '/':  # Divisão
+                resultado /= numero
+
+    print(f"Resultado: {resultado}")
+    #Imprimindo o resultado para o usuario.
