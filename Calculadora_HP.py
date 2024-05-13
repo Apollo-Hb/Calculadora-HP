@@ -28,6 +28,5 @@ while True:
                 resultado *= numero
             elif opcao == '/':  # Divisão
                 resultado /= numero
-
-    print(f"Resultado: {resultado}")
     #Imprimindo o resultado para o usuario.
+    print(f"Resultado: {resultado}")
